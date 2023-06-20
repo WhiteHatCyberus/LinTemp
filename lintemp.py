@@ -48,7 +48,7 @@ def update_temperature_bar():
         text_position = ((BAR_WIDTH - text_bbox[2]) // 2, (BAR_HEIGHT - text_bbox[3]) // 2)
         draw.text(text_position, temperature_text, fill=temperature_text_color)
 
-        # Save the image to a temporary file
+        # Save the image to the local filesystem
         image_path = '/tmp/temperature_bar.png'
         image.save(image_path)
         print(f"{temperature}°C")
