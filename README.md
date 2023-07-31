@@ -1,8 +1,9 @@
 # LinTemp - Lightweight Linux CPU Temperature Desktop widget
 
-Status: In development
+Status: Completed!
 
-![temperature_bar](https://github.com/WhiteHatCyberus/LinTemp/assets/70995581/2a559d4d-e7c3-4d48-b827-d4e002df05aa)
+![Screenshot from 2023-07-31 13-43-51](https://github.com/WhiteHatCyberus/LinTemp/assets/70995581/b287e8f6-8462-4fc0-b188-d16d8c746127)
+
 
 Got big bulky applications to monitor your Linux CPU temperature? 
 
