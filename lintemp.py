@@ -2,19 +2,11 @@ import tkinter as tk
 import tkinter.messagebox as messagebox
 import psutil
 ascii_art = """
-          L       IIIIIII       N       N       TTTTTTTTT      EEEEEEEE        M         M   PPPPPP 
-         L         III         NN      N           T           E              MM       MM  P      P
-        L          III         N N     N           T           E              M M     M M  P      P
-       L           III         N  N    N           T           EEEEEEEE       M  M   M  M  PPPPPP 
-      L            III         N   N   N           T           E              M   M M   M  P      
-     L             III         N    N  N           T           E              M    M    M  P      
-    L              III         N     N N           T           EEEEEEEEE      M         M  P      
-   L               III         N      NN           T           E              M         M  P      
-  L                III         N       N           T           E              M         M  P      
- L                IIIIIII      N       N           T           EEEEEEEE       M         M  P      
-LLLLLLLLLL       IIIIIII      N       N           T           EEEEEEEE       M         M  P      
-LLLLLLLLLL       IIIIIII      N       N           T           EEEEEEEEE      M         M  P      vAlpha
-
+ __     _       _____                  
+|  |   |_| ___ |_   _| ___  _____  ___ 
+|  |__ | ||   |  | |  | -_||     || . |
+|_____||_||_|_|  |_|  |___||_|_|_||  _|
+                                  |_|     vAlpha
 """
 
 print(ascii_art)
