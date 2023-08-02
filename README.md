@@ -8,7 +8,7 @@ Got big bulky applications to monitor your Linux CPU temperature?
 
 Tired of those detailed and clustered information? 
 
-You're a beginner and these applications confuse you?
+You're a looking for minimal and simplistic? *As usual I got you.*
 
 ---
 >**Note** *Built in Python3!!* 
