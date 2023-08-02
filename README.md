@@ -2,8 +2,7 @@
 
 Status: Completed!
 
-![Screenshot from 2023-07-31 13-43-51](https://github.com/WhiteHatCyberus/LinTemp/assets/70995581/b287e8f6-8462-4fc0-b188-d16d8c746127)
-
+![image](https://github.com/WhiteHatCyberus/LinTemp/assets/70995581/dc691003-7483-4977-ba41-d30449a65925)
 
 Got big bulky applications to monitor your Linux CPU temperature? 
 
