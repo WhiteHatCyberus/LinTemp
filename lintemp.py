@@ -18,30 +18,30 @@ def update_temperature(label):
         label.config(text=f"CPU Temp: {temperature}°C")
 
         flag = getattr(update_temperature, "flag", 0)       # just making sure that's all, i swear its a feature not a bug. It works, so it works.
-
+        # red zone , cpu's hot
         if temperature >= 80:
             label.configure(bg='red')
         
             if flag != 2:
                 show_warning_dialog("High Temperature Warning", "I'm burning. Help!")
                 update_temperature.flag = 2          # flag is 1 to indicate that the warning is displayed already and doesn't have to display again.
-
-        elif temperature >= 70 and temperature < 80:
+        # orange zone, cpu's getting warm
+        elif temperature >= 76 and temperature < 80:
             label.configure(bg='orange')
             if flag != 1:  
                 show_warning_dialog("Potential Danger", "Jeez, It's getting hot in here.")
                 update_temperature.flag = 1  
-        
-        elif temperature >= 40 and temperature < 70:
+        # green zone, cpu's normal
+        elif temperature >= 40 and temperature < 76:
             label.configure(bg='green')
             update_temperature.flag = 0          # Reset the flag to 0 when temperature is in the normal range
-
+        # blue zone, cpu's cold
         else:
             label.configure(bg='blue')
             if flag != -1:
                 show_warning_dialog("Low temperature", "Brrrr, it's getting cold?")
                 update_temperature.flag = -1  
-
+    # incase something's wrong with the sensor
     except (IndexError, KeyError):
         label.config(text="Cant obtain temperature info rn. Try again later.")
         update_temperature.flag = 0         # big brain error handling, jesbin will be proud.
