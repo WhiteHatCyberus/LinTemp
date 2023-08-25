@@ -1,6 +1,6 @@
 # LinTemp - Lightweight Linux CPU Temperature Desktop widget `Python-tkinter`
 
-Status: Completed!
+**Status:** Completed!
 
 ![image](https://github.com/WhiteHatCyberus/LinTemp/assets/70995581/dc691003-7483-4977-ba41-d30449a65925)
 
