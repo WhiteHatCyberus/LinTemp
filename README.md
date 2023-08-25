@@ -1,4 +1,4 @@
-# LinTemp - Lightweight Linux CPU Temperature Desktop widget
+# LinTemp - Lightweight Linux CPU Temperature Desktop widget `Python-tkinter`
 
 Status: Completed!
 
